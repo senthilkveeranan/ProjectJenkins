@@ -66,7 +66,8 @@
         </configuration>
       </plugin>
     </plugins>
-   <distributionManagement>
+  </build>
+     <distributionManagement>
     <repository>
       <id>nexus</id>
       <name>Releases</name>
@@ -77,7 +78,6 @@
       <name>Snapshot</name>
       <url>http://nexus.muthulakshmanan.com:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
-  </build>
+    </distributionManagement>
 <!--     <finalName>payslip</finalName> -->
 </project>
